@@ -12,15 +12,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body{
     font-family: Caramel;
-
-}
-/* LOGO */
-
-#logo-container{
     background-image: url(./img/weinberg.jpg);
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
+}
+
+/* LOGO */
+
+#logo-container{
+    width: 40%;
+    display: inline-block;
 }
 
 #logo{
@@ -29,4 +31,11 @@ body{
     color:white;
     text-align: center;
     opacity: 0.6;
+}
+
+/* Main */
+
+#main-container{
+ width: 60%;
+ display: inline-block;
 }

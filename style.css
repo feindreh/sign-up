@@ -1,0 +1,10 @@
+body{
+    font-family: Caramel;
+}
+#logo{
+    font-size: 100px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    opacity: 0.6;
+}

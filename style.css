@@ -23,12 +23,12 @@ body{
 /* LOGO */
 
 #logo-container{
-    width: 40%;
+    width: 35%;
     height: 100%;
     background-image: url(./img/weinberg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top:30vh;
+    padding-top: 20vh;
     display: inline-block;
 
 }
@@ -44,7 +44,7 @@ body{
 /* Main */
 
 #main-container{
- width: 60%;
+ width: 65%;
  height: 100%;
  background-color: grey;
  display: inline-block

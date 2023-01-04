@@ -87,6 +87,7 @@ input{
     font-size: 24px;
     padding: 2px;
     padding-left: 10px;
+    outline: none;
 }
 #button{
  background-color:rgb(43, 102, 15);
@@ -101,4 +102,9 @@ input{
 }
 p{
     font-size: 28px;
+}
+
+input:focus{
+    border-color: rgb(43, 102, 15);
+    box-shadow: 5px 3px 3px black;
 }

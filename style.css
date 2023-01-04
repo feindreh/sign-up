@@ -52,12 +52,13 @@ body{
  flex-direction: column;
  justify-content:center;
  gap:35px;
+ background-color: rgb(240, 234, 234);
 }
  h1{
     font-size: 28px;
  }
 form{
-    background-color: rgb(233, 227, 227);
+    background-color: white;
 }
 form,h1{
     padding-left: 50px;

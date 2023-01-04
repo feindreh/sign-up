@@ -51,7 +51,10 @@ body{
 #main-container{
  width: 65%;
  height: 100vh;
- background-color: grey;
- 
+ background-color: aquamarine;
+ font-family:Bellafair ;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
 
 }

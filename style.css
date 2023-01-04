@@ -55,15 +55,21 @@ body{
  font-family:Bellafair ;
  display: flex;
  flex-direction: column;
- justify-content: space-around;
-
+ justify-content:center;
+ gap:35px;
 }
+ h1{
+    font-size: 28px;
+ }
 
+form,h1{
+    padding-left: 50px;
+}
 .input-wrap{
-    flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
 }
+
 .input *{
-    display:block
+    display:block;
+    
 }

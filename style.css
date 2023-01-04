@@ -8,18 +8,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: transparent;
 }
 
-:root {
 
-    --main-width: min(1400px,100%);
-
-  }
 html{
     display: flex;
     justify-content: space-around;
 }
 body{
     font-family: Caramel;
-    width: var(--main-width);
+    width: 100%;
     height: 100vh;
     display: flex;
 }
@@ -60,7 +56,9 @@ body{
  h1{
     font-size: 28px;
  }
-
+form{
+    background-color: rgb(233, 227, 227);
+}
 form,h1{
     padding-left: 50px;
     padding-right:100px;

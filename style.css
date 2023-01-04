@@ -111,3 +111,12 @@ input:focus{
     border-color: rgb(43, 102, 15);
     box-shadow: 5px 3px 3px black;
 }
+
+#button:hover{
+ box-shadow: 0px 0px 5px rgb(87, 88, 88);
+}
+
+#button:active {
+    transform: translate(1px,5px);
+
+  }

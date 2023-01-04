@@ -77,11 +77,18 @@ form,p{
     display:block;
 }
 .input label{
-    font-size: 12px;
+    font-size: 18px;
 }
 .input{
     margin-right:45px;
     margin-bottom:25px;
+}
+input{
+    border:2px solid lightgrey;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 2px;
+    padding-left: 10px;
 }
 #button{
  background-color:rgb(43, 102, 15);

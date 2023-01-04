@@ -58,3 +58,12 @@ body{
  justify-content: space-around;
 
 }
+
+.input-wrap{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.input *{
+    display:block
+}

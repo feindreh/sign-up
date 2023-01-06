@@ -121,6 +121,3 @@ input:focus{
 
   }
 
-  input:invalid {
-    border: 2px dashed red;
-  }

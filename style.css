@@ -120,3 +120,7 @@ input:focus{
     transform: translate(1px,5px);
 
   }
+
+  input:invalid {
+    border: 2px dashed red;
+  }

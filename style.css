@@ -120,4 +120,6 @@ input:focus{
     transform: translate(1px,5px);
 
   }
-
+ span{
+    color: red
+ }
